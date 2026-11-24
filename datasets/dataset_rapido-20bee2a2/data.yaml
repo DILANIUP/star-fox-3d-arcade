@@ -1,0 +1,22 @@
+task: detect
+name: Human Action Detection
+description: Object detection dataset featuring people in various physical activities like running, walking, jumping, stretching, sitting, standing, squatting, and bending.
+bytes: 1458557657
+url: https://platform.ultralytics.com/kiwi-peacock/datasets/human-action-detection
+version: latest
+created_at: "2026-11-21T05:17:51.279Z"
+updated_at: "2026-11-21T05:17:53.073Z"
+names:
+  0: squat
+  1: run
+  2: sit
+  3: stretch
+  4: walk
+  5: jump
+  6: bendover
+  7: stand
+  8: lying
+train: images/train
+val: images/val
+hash: "20bee2a2"
+complete: true
